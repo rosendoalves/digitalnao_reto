@@ -7,16 +7,93 @@
     <link rel="stylesheet" href="./style.css">
     <title>Caroline Sade</title>
 </head>
-<header>
-    Header
-</header>
 <body>
-    <section>Últimos post</section>
-    <section>Curso</section>
-    <section>Testimonios</section>
-    <section>Contactame</section>
-</body>
-<footer>
-    Footer
-</footer>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo"><a href="#inicio"><img src="./assets/img/woman.svg" alt="logo"></a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#tutoriales">Tutoriales</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio" class="header">
+        <img src='./assets/img/postal.svg' alt="portada">
+        <p>Caroline Sada</p>   
+    </section>
+    <section id= "tutoriales" class="post">
+        <h1>Publicaciones Recientes</h1>
+<br>
+<div class="contenedor">
+    <div class="elemento">
+        <img src="./assets/img/bitcoin.svg" alt="post1">
+        <h2>Descubrí como invertir en bitcoin</h2>
+        <p>Enterate de las últimas tendencias para invertir en moneda virtual</p>
+    </div>
+    <div class="elemento">
+        <img src="./assets/img/upgrade.svg" alt="post2">
+        <h2>Incrementá tu portfolio</h2>
+        <p>Aprende a como diversificar el riesgo con diferentes formas de inversión</p>
+    </div>
+    <div class="elemento">
+        <img src="./assets/img/photo-session.svg" alt="post3">
+        <h2>Finanzas colaborativas</h2>
+        <p>La mejor forma de aprender es enseñando, crea comunidad y sigue a líderes</p>
+    </div>
+    
+</div>
+    </section>
+    <section id="cursos" class="curso">
+        <h1>Curso - Aprendé conmigo</h1>
+<br>
+<div class="contenedor">
+    <div class="elemento-curso">
+            <img src="./assets/img/classes.svg" alt="clase">
+    </div>
+    <div class="elemento-curso">
+        <h2>Finanzas Personales</h2>
+        <p>En este curso vas a aprender como gestionar tu dinero, como así también opciones de inversión donde podrás sacarle el máximo rendimiento a tus ahorros. No te dejes ganar por la inflación, este curso es para vos!</p>
+        <a type="button" href="https://www.youtube.com" target="_blank">Click!</a>
+    </div>
+    
+</div>
+    </section>
+    <section id="about">
+        <h1>Mi historia</h1>
+        <br>
+        <div class="contenedor">
+         
+            <div class="elemento-curso">
+                <h2>Caroline Sada</h2>
+                <p>Soy Licenciada en Administración y Dirección de Empresas, con 34 años soy
+                    una influencer financiera, rubro en el que me desempeño como analista desde hace tres
+                    años.
+                    He logrado generar contenido de valor para redes sociales, donde doy
+                    consejos y enseña conceptos de finanzas a emprendedores. La información que comparto
+                    se ha viralizado, en especial en la
+                    plataforma de Tik Tok, donde más busco ayudar a mis seguidores a lograr un equilibrio financiero en su vida.
+                    </p>
+                <a type="button" href="https://www.tiktok.com" target="_blank">Perfil</a>
+            </div>
+            <div class="elemento-curso">
+                <img src="./assets/img/tiktok.svg" alt="tiktok">
+        </div>
+    </section>
+    <footer id="contacto">
+        <div class="footer">
+            <div class="elemento-footer">
+                <img src="./assets/img/looking.svg" alt="moon">
+            </div>
+            <div class="elemento-footer">
+                <h2>Si quieres una asesoría personalizada puedes realizarla en el siguiente formulario de contacto donde nuestro equipo se contactará contigo</h2>
+                <input type="text" placeholder="Ingresa tu nombre" maxlength="30">
+                <input type="email" placeholder="Ingresa tu correo" maxlength="40">
+                <textarea type="textarea" rows="3" cols="40" class="text-area" placeholder="Ingrese su consulta aquí" maxlength="100"></textarea>
+                <a type="button" href="https://www.gmail.com" target="_blank">Enviar</a>
+            </div>
+        </footer>
+    </body>
 </html>
