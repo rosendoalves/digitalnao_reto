@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -12,19 +12,34 @@
 
 
 header {
-    background: #736CED;
+    /* background: #736CED; */
     width: 100%;
     position: fixed;
     z-index: 100;
   }
 
-  p {
+.navbar-img {
+    width: auto;
+    height: 30px;
+    margin-right: 10px;
+}
+.navbar-img:hover {
+  background: #D4C1EC;
+}
+.navbar-brand:hover {
+  background: #D4C1EC;
+}
+
+.nav-item:hover {
+  background: #D4C1EC;
+}
+/*   p {
     margin-bottom: 20px;
   }
 
   nav ul {
     list-style: none;
-    overflow: hidden; /* Limpiamos errores de float */
+    overflow: hidden;
     display: flex;
     align-items: center;
   }
@@ -38,13 +53,13 @@ header {
     }
     
     nav ul li:first-child img {
-        width: auto; /* ajustar al ancho deseado */
-        height: 30px; /* ajustar al alto proporcionalmente */
-        margin-right: 10px; /* agregar un margen derecho para separar la imagen de los otros elementos */
+        width: auto; 
+        height: 30px; 
+        margin-right: 10px; 
     }
     
   nav ul li a {
-    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    display: block;
     padding: 20px;
     color: #FEF9FF;
     text-decoration: none;
@@ -52,7 +67,7 @@ header {
   
   nav ul li:hover {
     background: #D4C1EC;
-  }
+  } */
 
   .header {
   padding-top: 80px;
@@ -72,9 +87,9 @@ header {
 
 .header p {
     position: absolute;
-    bottom: 25%; /* Puedes ajustar la posición vertical */
-    right: 10%; /* Puedes ajustar la posición horizontal */
-    color: black; /* Puedes personalizar el estilo de la frase */
+    bottom: 25%; 
+    right: 10%; 
+    color: black;
     font-size: 70px;
     font-weight: 20px;
 }
