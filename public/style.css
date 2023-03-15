@@ -1,18 +1,20 @@
+ /* DEFAULT */
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
-/* PALETA DE COLORES */
+/* COLORS */
 /* color: #f2dfd7 champagne pink */
 /* color: #FEF9FF ghost white; */
 /* color: #D4C1EC thistle; */
 /* color: #9F9FED tropical indigo; */
 /* color: #736CED medium slate blue; */
 
+ /* NAVBAR */
 
 header {
-    /* background: #736CED; */
     width: 100%;
     position: fixed;
     z-index: 100;
@@ -33,66 +35,12 @@ header {
 .nav-item:hover {
   background: #D4C1EC;
 }
-/*   p {
-    margin-bottom: 20px;
-  }
 
-  nav ul {
-    list-style: none;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-  }
-  nav ul li {
-    float: right;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-  }
-  nav ul li:first-child {
-      float: left;
-    }
-    
-    nav ul li:first-child img {
-        width: auto; 
-        height: 30px; 
-        margin-right: 10px; 
-    }
-    
-  nav ul li a {
-    display: block;
-    padding: 20px;
-    color: #FEF9FF;
-    text-decoration: none;
-  }
-  
-  nav ul li:hover {
-    background: #D4C1EC;
-  } */
-
-  .header {
-  padding-top: 80px;
-  width: 80%;
-  margin: auto;
-  overflow:hidden;
-  }
-
+ /* HEADER AFTER NAVBAR */
 .header {
+  padding-top: 80px;
+  }
 
-    position: relative;
-}
-
-.header img {
-    width: 100%;
-}
-
-.header p {
-    position: absolute;
-    bottom: 25%; 
-    right: 10%; 
-    color: black;
-    font-size: 70px;
-    font-weight: 20px;
-}
 
 h1 {
     font-size: 300%;
